@@ -140,6 +140,9 @@ header .logo-box .logo {
 	padding: 40px 0;
 	margin-right: 20px;
 }
+.content-50 div img {
+	width: 100%;
+}
 p {
 	line-height: 1.1;
 }
