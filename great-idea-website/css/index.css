@@ -172,3 +172,10 @@ footer {
 	clear: both;
 }
 
+.content-50, .content-33 {
+	font-family: 'Roboto', sans-serif;
+}
+.content-50 h2, .content-33 h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
