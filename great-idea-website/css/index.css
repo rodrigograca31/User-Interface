@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+header {
+	height: 95px;
+}
+header img {
+	margin: 0 auto;
+}
+header nav a {
+	height: 70px;
+	color: grey;
+	text-decoration: none;
+	width: 110px;
+	display: inline-block;
+}
+header > nav, header > img {
+	display: inline-block;
+}
+header .logo-box {
+    display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	/* vertical align! */
+	/* display:flex;
+	justify-content:center;
+	align-items:center; */
+}
+header .logo-box .logo {
+	vertical-align: middle;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.intro {
+	/* font-size: 0; */
+	margin: 40px 0 72px 0;
+	/* vertical align! */
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.intro div {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+.intro div img {
+	margin-right: 0;
+	float: right;
+}
+.intro h1 {
+	font-size: 80px;
+}
+.intro button.start {
+	background-color: white;
+	border: 1px solid black;
+	font-size: 15px;
+	padding: 8px;
+	width: 180px;
+}
+.content-50 {
+	border-top: 1px solid black;
+}
+.content-50 div {
+	width: calc(50% - 20px);
+	display: inline-block;
+	float: left;
+	padding: 40px 0;
+	margin-right: 20px;
+}
+p {
+	line-height: 1.1;
+}
+
+.content-33 div {
+	width: calc(100% / 3);
+	width: calc(100% / 3 - 20px);
+	display: inline-block;
+	float: left;
+	padding: 40px 0;
+	margin-right: 20px;
+}
+.contact {
+	border-top: 1px solid black;
+	padding-top: 40px;
+	margin-top: 12px;
+	line-height: 1.1;
+}
+
+
+footer {
+	text-align: center;
+	padding: 60px;
+	font-size: 14px;
+}
+
+.intro:after, .content-50:after, .content-33:after {
+	content: "";
+	display: table;
+	clear: both;
+}
