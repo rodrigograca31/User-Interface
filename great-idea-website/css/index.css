@@ -71,6 +71,9 @@ h1, h2, h3, h4, h5 {
 }
 header {
 	height: 95px;
+	background: lightblue;
+	position: sticky;
+	top: 0;
 }
 header img {
 	margin: 0 auto;
@@ -168,3 +171,4 @@ footer {
 	display: table;
 	clear: both;
 }
+
